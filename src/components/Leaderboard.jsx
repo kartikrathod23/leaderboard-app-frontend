@@ -101,7 +101,7 @@ const Leaderboard = ({ users }) => {
       </div>
       {/* Pagination controls for leaderboard */}
       {totalPages > 1 && (
-        <div className="flex justify-center items-center gap-4 mt-4">
+        <div className="flex justify-between items-center gap-4 mt-4">
           <button
             className="px-3 py-1 rounded bg-gray-200 text-gray-700 font-semibold disabled:opacity-50"
             onClick={() => setPage(page - 1)}
